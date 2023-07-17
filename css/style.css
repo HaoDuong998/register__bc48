@@ -129,7 +129,7 @@ main .row:last-child .col-6:last-child button {
 }
 main .row:last-child .col-6:last-child button span {
   position: relative;
-  z-index: 1;
+  z-index: 9999;
 }
 main .row:last-child .col-6:last-child button::before {
   content: "";

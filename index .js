@@ -39,7 +39,7 @@ function postAPI() {
         return;
     };
     if (!regrexName.test(name)) {
-        alert('Họ Tên không có số !!')
+        alert('Yêu Cầu Nhập Đúng Tên!!')
         return;
     }
     if (isNaN(phone)) {
