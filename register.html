@@ -72,7 +72,7 @@
     <main>
         <h1>Register</h1>
         <!-- Phần Input  -->
-        <form id="formNguoiDung" class="container text-center">
+        <form onsubmit="signUp" id="formNguoiDung" class="container text-center">
             <div class="row">
                 <!-- Email  -->
                 <div class="col-6">
@@ -118,13 +118,13 @@
                 <div class="col-6 d-flex justify-content-evenly">
                     <span>Gender</span>
                     <div class="form-check" id="">
-                        <input value="true" class="form-check-input" type="radio" name="flexRadioDefault"
+                        <input value="male" class="form-check-input" type="radio" checked name="flexRadioDefault"
                             id="flexRadioDefault1">
                         <label for="">Male</label>
                     </div>
                     <!-- <p id="tbMale"></p> -->
                     <div class="form-check" id="gender">
-                        <input class="form-check-input" value="false" type="radio" name="flexRadioDefault"
+                        <input class="form-check-input" value="female" type="radio" name="flexRadioDefault"
                             id="flexRadioDefault2">
                         <label for="">Female</label>
                     </div>
